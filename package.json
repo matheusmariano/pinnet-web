@@ -1,0 +1,24 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "neutrino build",
+    "start": "neutrino start",
+    "lint": "neutrino lint",
+    "test": "neutrino test"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-hot-loader": "^4.3.2"
+  },
+  "devDependencies": {
+    "@neutrinojs/airbnb": "^8.2.3",
+    "@neutrinojs/jest": "^8.2.3",
+    "@neutrinojs/react": "^8.2.3",
+    "neutrino": "^8.2.3"
+  }
+}
